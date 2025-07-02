@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jhenk's Photography</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #000; color: #fff; }
+    header, footer { text-align: center; padding: 2rem; }
+    header img { width: 100px; margin-bottom: 1rem; }
+    section { padding: 2rem; background: #fff; color: #000; }
+    .services, .gallery { display: grid; gap: 1rem; max-width: 900px; margin: auto; }
+    .services { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .service-box, .gallery-item { padding: 1rem; background: #f0f0f0; border-radius: 10px; }
+    form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #000; color: #fff; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Jhenk's Logo" />
+    <h1>Jhenk's Photography</h1>
+    <p><em>"Picture the Possibilities"</em></p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box"><h3>Event Photography</h3><p>Candid and professional shots for all your special occasions.</p></div>
+      <div class="service-box"><h3>Wedding Photography</h3><p>Capturing your once-in-a-lifetime love story.</p></div>
+      <div class="service-box"><h3>Confirmation Photos</h3><p>Elegant portraits for your important milestones.</p></div>
+      <div class="service-box"><h3>Photobooth Services</h3><p>Fun and stylish photo booths for any event.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item">Photo 1</div>
+      <div class="gallery-item">Photo 2</div>
+      <div class="gallery-item">Photo 3</div>
+      <div class="gallery-item">Photo 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Book a Session</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Your Phone Number" required />
+      <textarea placeholder="Message or Event Details" rows="5" required></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>📞 90774858 | 📧 jenks.photography@yahoo.com</p>
+    <p>📷 Instagram: @jhenks.photography | Facebook: Jhenk's Photography</p>
+    <p style="color: #aaa;">&copy; 2025 Jhenk's Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
